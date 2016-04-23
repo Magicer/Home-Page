@@ -107,10 +107,10 @@ body{
 	padding: 0 0 0 10px;
 	
 	/*color: #fff;*/
-	background-image: -moz-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0, 0));
+/*	background-image: -moz-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0, 0));
 	background-image: -o-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0,0));
 	background-image: -webkit-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0,0));
-	background-image: linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0, 0));
+	background-image: linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0, 0));*/
 	border-top: 1px solid #000;
 	/*box-shadow: inset 0px 1px rgba(255, 255, 255, 0.4),
 				0px 0px 13px #000000;*/
@@ -140,19 +140,19 @@ p.error {
 	color: #ddd;
 	-webkit-animation: 2s contentappear;
 	-moz-animation: 2s contentappear;
-	background-image: -moz-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
-	background-image: -o-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
-	background-image: -webkit-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0,1));
-	background-image: linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
-	border: 1px solid #000;
+/*	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255,255,255, 1));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255,255,255, 1));
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(0,0,0,1));*/
+	/*background-image: linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(0,0,0, 1));*/
+	border: 1px solid #fff;
 	box-shadow: inset 0px 1px rgba(255, 255, 255, 0.4),
-				0 3px 8px #000000;
+				0 3px 8px #ffffff;
 	border-radius: 6px;
 	
-	font: 16px helvetica neue;;
+	font: 20px helvetica neue;;
 	line-height: 25px;
 	font-weight: 300;
-	text-shadow: #000 0 1px 0;
+	text-shadow: #fff 0 0.3px 0;
 }
 
 .content h2{
