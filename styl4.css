@@ -83,7 +83,7 @@ a:active{
 }
 
 html{
-	background: url(/images/freeimage.jpg) no-repeat center center fixed;
+	background: url(images/freeimage.jpg) no-repeat center center fixed;
 	/*Image for the full size image background. If you want to have a color as a background, just remove the complete html{} style and uncomment the last line in the body{}*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -106,14 +106,14 @@ body{
 	height: 55px;
 	padding: 0 0 0 10px;
 	
-	color: #fff;
-	background-image: -moz-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
-	background-image: -o-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
-	background-image: -webkit-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0,1));
-	background-image: linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
+	/*color: #fff;*/
+	background-image: -moz-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0, 0));
+	background-image: -o-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0,0));
+	background-image: -webkit-linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0,0));
+	background-image: linear-gradient(top, rgba(85, 85, 85, 0), rgba(0,0,0, 0));
 	border-top: 1px solid #000;
-	box-shadow: inset 0px 1px rgba(255, 255, 255, 0.4),
-				0px 0px 13px #000000;
+	/*box-shadow: inset 0px 1px rgba(255, 255, 255, 0.4),
+				0px 0px 13px #000000;*/
 				
 	z-index: 99;
 	-webkit-animation: 1s appear;
@@ -121,8 +121,8 @@ body{
 }
 
 p.error {
-	color: #000;
-	text-shadow: #fff 0 2.5px 0;
+	color: #ddd;
+	text-shadow: #ddd 0 2.5px 0;
 	padding-top: 10px;
 	text-align:center;
 	font:900 17em helvetica neue;
@@ -137,7 +137,7 @@ p.error {
 	width: 570px;
 	
 	
-	color: #fff;
+	color: #ddd;
 	-webkit-animation: 2s contentappear;
 	-moz-animation: 2s contentappear;
 	background-image: -moz-linear-gradient(top, rgba(85, 85, 85, 0.7), rgba(0,0,0, 1));
