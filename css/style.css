@@ -404,7 +404,7 @@ textarea
 	font-size: 1.2em;
 	color: #c0c0c0;
 	font-weight: 400;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 .soc_icons ul li{
 	margin:15px;
@@ -437,10 +437,10 @@ textarea
 	background: #D95333 url('../images/icon3.png') no-repeat 9px 9px;
 }
 .soc_icons ul li a.icon4{
-	background: #007BB6 url('../images/icon4.png') no-repeat 14px 12px;
+	background: #007BB6 url('../images/icon4.png') no-repeat 25px 25px;
 }
 .soc_icons ul li a.icon5{
-	background: #000000 url('../images/icon5.png') no-repeat 10px 10px;
+	background: #000000 url('../images/icon5.png') no-repeat 10px 9px;
 }
 .soc_icons ul li a:hover{
 	zoom: 1;
@@ -660,13 +660,13 @@ textarea
 	background: #02B3E9 url('../images/icon2.png') no-repeat 11px 12px;
 	}
 	.soc_icons ul li a.icon3 {
-	background: #D95333 url('../images/icon3.png') no-repeat 13px 11px;
+	background: #D95333 url('../images/icon3.png') no-repeat 8px 7px;
 	}
 	.soc_icons ul li a.icon4 {
-	background: #007BB6 url('../images/icon4.png') no-repeat 12px 8px;
+	background: #007BB6 url('../images/icon4.png') no-repeat 15px 15px;
 	}
 	.soc_icons ul li a.icon5 {
-	background: #FF0084 url('../images/icon5.png') no-repeat 11px 16px;
+	background: #000000 url('../images/icon5.png') no-repeat 9px 10px;
 	}
 	.contact {
 	padding: 2em 0em;
